@@ -7,13 +7,14 @@
 a {
   text-decoration: none;
   color: #fff;
-} 
+}
 
 img {
   width: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -25,30 +26,30 @@ body {
 }
 
 hr {
-  width: 150px;
-}
-
-.container {
-  display: flex;
+  width: 200px;
+  border: none;
+  border-top: 1.5px solid #757575;
 }
 
 nav {
-  width: 34vw;
   background-color: #222;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  width: 120px;
+  height: 100%;
 }
 
 nav img {
-  width: 100%;
+  display: block;
 }
 
 nav a {
-  text-align: center;
-  padding: 12px 0;
+  display: block;
+  padding: 12px 24px;
+  width: 100%;
 }
 
-nav a:focus {
+nav a.active {
   background-color: #000;
 }
 
@@ -57,10 +58,129 @@ nav a:hover {
 }
 
 nav a i {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 nav a p {
-  font-size: 0.7rem;
-  margin: 12px 0;
+  font-size: 0.75rem;
+  margin: 16px 0;
 }
+
+main {
+  margin-left: 120px;
+}
+
+#home {
+  text-align: center;
+  width: 100%;
+  padding: 32px 16px;
+}
+
+#home h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 32px 0 24px 0;
+}
+
+#home p {
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+#home img {
+  width: 992px;
+}
+
+#about {
+  max-width: 980px;
+  margin-inline: auto;
+  padding: 64px 0;
+}
+
+#about h2 {
+  font-weight: 400;
+  color: #f1f1f1;
+  font-size: 2rem;
+}
+
+#about hr {
+  margin: 24px 0;
+}
+
+.about-description {
+  font-size: 15px;
+  color: #757575;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#about h3 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#about h3:first-of-type {
+  margin: 10px 0;
+  padding: 16px 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #757575;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.skill {
+  height: 28px;
+  background-color: #fff;
+}
+
+#skill-1, #skill-2, #skill-3 {
+  height: 100%;
+  background-color: #666666;
+}
+
+#skill-1 {
+  width: 95%;
+}
+
+#skill-2 {
+  width: 85%;
+}
+
+#skill-3 {
+  width: 80%;
+}
+
+.accomplishments {
+  background-color: #f1f1f1;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 122px;
+  margin-bottom: 32px;
+}
+
+.accomplishments div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.accomplishments div p:first-child {
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 12px 24px;
+  background-color: #f1f1f1;
+  border: none;
+}
+
