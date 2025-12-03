@@ -64,7 +64,8 @@ nav a.active {
 }
 
 nav a:hover {
-  background-color: #000;
+  background-color: #c1c1c1;
+  color: #000;
 }
 
 nav a i {
