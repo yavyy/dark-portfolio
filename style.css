@@ -29,6 +29,12 @@ li {
   list-style: none;
 }
 
+h2 {
+  font-weight: 400;
+  color: #f1f1f1;
+  font-size: 1.87rem;
+}
+
 hr {
   width: 200px;
   border: none;
@@ -99,12 +105,6 @@ main {
   max-width: 980px;
   margin-inline: auto;
   padding: 64px 0;
-}
-
-#about h2 {
-  font-weight: 400;
-  color: #f1f1f1;
-  font-size: 2rem;
 }
 
 #about hr {
@@ -274,4 +274,31 @@ main {
 
 .client {
   margin-bottom: 16px;
+}
+
+#photos {
+  max-width: 980px;
+  margin-inline: auto;
+  margin-top: 64px;
+}
+
+#photos hr {
+  margin: 28px 0 16px 0;
+}
+
+#photo-container {
+  display: flex;
+  gap: 16px;
+}
+
+#photo-container img {
+  display: block;
+}
+
+.photo-container-left,
+.photo-container-right  {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
