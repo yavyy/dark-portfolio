@@ -18,7 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: inherit;
 }
 
 img {
@@ -98,7 +98,7 @@ main {
 }
 
 #home img {
-  width: 992px;
+  max-width: 992px;
 }
 
 #about {
@@ -301,4 +301,66 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+#contact {
+  max-width: 980px;
+  margin: 112px auto;
+  color: #616161;
+}
+
+#contact h2 {
+  margin-bottom: 24px;
+}
+
+#contact hr {
+  padding: 8px 0;
+}
+
+.contact-container {
+  margin-bottom: 40px;
+}
+
+.contact-container div {
+  display: flex;
+  align-items: end;
+  gap: 24px;
+  padding: 12px 0;
+}
+
+.contact-container div i {
+  color: #fff;
+  font-size: 1.87rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-top: 16px;
+}
+
+.contact-form input {
+  padding: 16px 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+footer {
+  color: #666666;
+  width: 980px;
+  margin-inline: auto;
+  padding-bottom: 128px;
+}
+
+footer i {
+  font-size: 1.5rem;
+}
+
+footer p {
+  margin-top: 24px;
 }
